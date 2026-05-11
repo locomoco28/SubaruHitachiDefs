@@ -1,0 +1,319 @@
+<!--ROMRAIDER ECU DEFINITION FILE-->
+<roms>
+  <rom>
+    <romid>
+      <xmlid>D5834EC7</xmlid>
+      <internalidaddress>10529</internalidaddress>
+      <internalidhex>D5834EC7</internalidhex>
+      <caseid>22611-AK770</caseid>
+      <ecuid>4544307206</ecuid>
+      <make>Subaru</make>
+      <market>EU</market>
+      <model>Legacy</model>
+      <submodel>2.0R</submodel>
+      <transmission>MT</transmission>
+      <year>06</year>
+      <flashmethod>hitachi_m32r_kline</flashmethod>
+      <memmodel>M32R</memmodel>
+      <filesize>512kb</filesize>
+    </romid>
+
+    
+
+    
+    <table type="Switch" name="(P0016) Crankshaft/Camshaft Position Correlation (Bank 1 Sensor A)"
+      storageaddress="0x7B516" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Crankshaft/Camshaft Position Correlation (Bank 1 Sensor A). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="00 16" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0018) Crankshaft/Camshaft Position Correlation (Bank 2 Sensor A)"
+      storageaddress="0x7B514" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Crankshaft/Camshaft Position Correlation (Bank 2 Sensor A). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="00 18" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0030) HO2S Heater Control Circuit (Bank 1 Sensor 1)"
+      storageaddress="0x7B422" category="Diagnostic Trouble Codes" sizey="2">
+      <description>HO2S Heater Control Circuit (Bank 1 Sensor 1). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="00 30" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0134) O2 Sensor Circuit No Activity Detected (Bank 1 Sensor 1)"
+      storageaddress="0x7B41A" category="Diagnostic Trouble Codes" sizey="2">
+      <description>O2 Sensor Circuit No Activity Detected (Bank 1 Sensor 1). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="01 34" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0222) Throttle/Pedal Position Sensor/Switch &quot;B&quot; Circuit Low"
+      storageaddress="0x7B458" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;B&quot; Circuit Low. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="02 22" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0223) Throttle/Pedal Position Sensor/Switch &quot;B&quot; Circuit High"
+      storageaddress="0x7B45A" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;B&quot; Circuit High. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="02 23" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0340) Camshaft Position Sensor &quot;A&quot; Circuit (Bank 1 or Single Sensor)"
+      storageaddress="0x7B440" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Camshaft Position Sensor &quot;A&quot; Circuit (Bank 1 or Single Sensor). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="03 40" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0345) Camshaft Position Sensor &quot;A&quot; Circuit (Bank 2)"
+      storageaddress="0x7B43E" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Camshaft Position Sensor &quot;A&quot; Circuit (Bank 2). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="03 45" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0410) Secondary Air Injection System"
+      storageaddress="0x7B51C" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="04 10" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0413) Secondary Air Injection System Switching Valve &quot;A&quot; Circuit Open"
+      storageaddress="0x7B524" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Switching Valve &quot;A&quot; Circuit Open. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="04 13" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0414) Secondary Air Injection System Switching Valve &quot;A&quot; Circuit Shorted"
+      storageaddress="0x7B510" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Switching Valve &quot;A&quot; Circuit Shorted. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="04 14" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0418) Secondary Air Injection System Control &quot;A&quot; Circuit Open"
+      storageaddress="0x7B526" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Control &quot;A&quot; Circuit Open. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="04 18" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0500) Vehicle Speed Sensor &quot;A&quot;"
+      storageaddress="0x7B5F8" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Vehicle Speed Sensor &quot;A&quot;. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="05 00" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0503) Vehicle Speed Sensor Intermittent/Erratic/High"
+      storageaddress="0x7B426" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Vehicle Speed Sensor Intermittent/Erratic/High. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="05 03" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0600) Serial Communication Link"
+      storageaddress="0x7B438" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Serial Communication Link. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="06 00" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0605) Internal Control Module Read Only Memory (ROM) Error"
+      storageaddress="0x7B442" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Internal Control Module Read Only Memory (ROM) Error. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="06 05" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0607) Control Module Performance"
+      storageaddress="0x7B448" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Control Module Performance. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="06 07" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0638) Throttle Actuator Control Range/Performance (Bank 1)"
+      storageaddress="0x7B466" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle Actuator Control Range/Performance (Bank 1). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="06 38" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P0700) Transmission Control System (MIL Request)"
+      storageaddress="0x7B4A6" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Transmission Control System (MIL Request). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="07 00" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P1160) Return Spring Failure"
+      storageaddress="0x7B45C" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Return Spring Failure. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="11 60" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P1410) Secondary Air Injection System Switching Valve Stuck Open"
+      storageaddress="0x7B4FA" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Switching Valve Stuck Open. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="14 10" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P1418) Secondary Air Injection System Control &quot;A&quot; Circuit Shorted"
+      storageaddress="0x7B512" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Control &quot;A&quot; Circuit Shorted. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="14 18" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P1521) Brake Switch Circuit Range/Performance Problem (High Input)"
+      storageaddress="0x7B444" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Brake Switch Circuit Range/Performance Problem (High Input). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="15 21" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2088) OCV Solenoid Valve Signal A Circuit Open (Bank 1)"
+      storageaddress="0x7B436" category="Diagnostic Trouble Codes" sizey="2">
+      <description>OCV Solenoid Valve Signal A Circuit Open (Bank 1). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="20 88" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2089) OCV Solenoid Valve Signal A Circuit Short (Bank 1)"
+      storageaddress="0x7B434" category="Diagnostic Trouble Codes" sizey="2">
+      <description>OCV Solenoid Valve Signal A Circuit Short (Bank 1). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="20 89" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2092) OCV Solenoid Valve Signal A Circuit Open (Bank 2)"
+      storageaddress="0x7B432" category="Diagnostic Trouble Codes" sizey="2">
+      <description>OCV Solenoid Valve Signal A Circuit Open (Bank 2). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="20 92" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2093) Intake Camshaft Position Actuator Control Circuit High (Bank 2)"
+      storageaddress="0x7B430" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Intake Camshaft Position Actuator Control Circuit High (Bank 2). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="20 93" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2100) Throttle Actuator Control Motor Circuit/Open"
+      storageaddress="0x7B478" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle Actuator Control Motor Circuit/Open. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 00" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2101) Throttle Actuator Control Motor Circuit Range/Performance"
+      storageaddress="0x7B462" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle Actuator Control Motor Circuit Range/Performance. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 01" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2102) Throttle Actuator Control Motor Circuit Low"
+      storageaddress="0x7B45E" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle Actuator Control Motor Circuit Low. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 02" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2103) Throttle Actuator Control Motor Circuit High"
+      storageaddress="0x7B460" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle Actuator Control Motor Circuit High. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 03" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2111) Throttle Actuator Control System - Stuck Open"
+      storageaddress="0x7B47A" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle Actuator Control System - Stuck Open. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 11" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2122) Throttle/Pedal Position Sensor/Switch &quot;D&quot; Circuit Low Input"
+      storageaddress="0x7B450" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;D&quot; Circuit Low Input. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 22" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2123) Throttle/Pedal Position Sensor/Switch &quot;D&quot; Circuit High Input"
+      storageaddress="0x7B452" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;D&quot; Circuit High Input. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 23" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2127) Throttle/Pedal Position Sensor/Switch &quot;E&quot; Circuit Low Input"
+      storageaddress="0x7B44C" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;E&quot; Circuit Low Input. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 27" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2128) Throttle/Pedal Position Sensor/Switch &quot;E&quot; Circuit High Input"
+      storageaddress="0x7B44E" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;E&quot; Circuit High Input. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 28" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2135) Throttle/Pedal Position Sensor/Switch &quot;A&quot;/&quot;B&quot; Voltage Correlation"
+      storageaddress="0x7B454" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;A&quot;/&quot;B&quot; Voltage Correlation. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 35" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2138) Throttle/Pedal Position Sensor/Switch &quot;D&quot;/&quot;E&quot; Voltage Correlation"
+      storageaddress="0x7B44A" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Throttle/Pedal Position Sensor/Switch &quot;D&quot;/&quot;E&quot; Voltage Correlation. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="21 38" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2227) Barometric Pressure Circuit Range/Performance"
+      storageaddress="0x7B4E0" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Barometric Pressure Circuit Range/Performance. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="22 27" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2228) Barometric Pressure Circuit Low"
+      storageaddress="0x7B4E6" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Barometric Pressure Circuit Low. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="22 28" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2229) Barometric Pressure Circuit High"
+      storageaddress="0x7B4E4" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Barometric Pressure Circuit High. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="22 29" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2431) Secondary Air Injection System Air Flow/Pressure Sensor Circuit Range/Performance"
+      storageaddress="0x7B51E" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Air Flow/Pressure Sensor Circuit Range/Performance. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="24 31" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2432) Secondary Air Injection System Air Flow/Pressure Sensor Circuit Low"
+      storageaddress="0x7B522" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Air Flow/Pressure Sensor Circuit Low. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="24 32" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2433) Secondary Air Injection System Air Flow/Pressure Sensor Circuit High"
+      storageaddress="0x7B520" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Air Flow/Pressure Sensor Circuit High. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="24 33" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2440) Secondary Air Injection System Switching Valve Stuck Open (Bank1)"
+      storageaddress="0x7B502" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Switching Valve Stuck Open (Bank1). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="24 40" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2441) Secondary Air Injection System Switching Valve Stuck Closed (Bank1)"
+      storageaddress="0x7B500" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Switching Valve Stuck Closed (Bank1). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="24 41" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2444) Secondary Air Injection System Pump Stuck ON"
+      storageaddress="0x7B518" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Secondary Air Injection System Pump Stuck ON. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="24 44" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2503) Charging System Voltage Low"
+      storageaddress="0x7B47E" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Charging System Voltage Low. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="25 03" />
+      <state name="off" data="00 00" />
+    </table>
+    <table type="Switch" name="(P2504) Charging System Voltage High"
+      storageaddress="0x7B47C" category="Diagnostic Trouble Codes" sizey="2">
+      <description>Charging System Voltage High. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
+      <state name="on" data="25 04" />
+      <state name="off" data="00 00" />
+    </table>
+  </rom>
+</roms>
